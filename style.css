@@ -7,8 +7,13 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body {
+    scrollbar-width: none; /* FireFox */
+    -ms-overflow-style: none; /* IE/Edge */
+}
+
 *::-webkit-scrollbar{
-    display: none;
+    display: none; /* Safari/Chrome/Opera */
 }
 
 #home {
@@ -59,3 +64,16 @@
     transition: all .3s ease-in-out;
 }
 
+
+/* breakpoints */
+@media (min-width: 0px) {
+    .course .container .row .col-md-3 .card {
+        width: 75%;
+        margin: auto;
+    }
+
+    .image-ilustrasi {
+        width: 80%;
+        margin-left: 2rem;
+    }
+}
