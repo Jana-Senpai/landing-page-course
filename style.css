@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+*::-webkit-scrollbar{
+    display: none;
+}
+
+#home {
+    padding-top: 5rem;
+}
+#about {
+    padding-top: 5rem;
+
+}
+#course {
+    padding-top: 5rem;
+
+}
+
+.image-ilustrasi {
+    animation: UpDown infinite 2s ease-in-out;
+}
+
+@keyframes UpDown {
+    0% {
+        transform: translateY(-5%);
+    }
+    50% {
+        transform: translateY(5%);
+    }
+    0% {
+        transform: translateY(0);
+    }
+}
+
+.card {
+    transition: all .3s ease-in-out;
+}
+
+.package .col-md-3:nth-child(1) .card:hover {
+    box-shadow: 0 .125rem 1rem #198754;
+    transform: scale(1.1);
+    transition: all .3s ease-in-out;
+}
+.package .col-md-3:nth-child(2) .card:hover {
+    box-shadow: 0 .125rem 1rem #ffc107;
+    transform: scale(1.1);
+    transition: all .3s ease-in-out;
+}
+.package .col-md-3:nth-child(3) .card:hover {
+    box-shadow: 0 .125rem 1rem #dc3545;
+    transform: scale(1.1);
+    transition: all .3s ease-in-out;
+}
+
