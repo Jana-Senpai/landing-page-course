@@ -21,7 +21,7 @@ body {
 }
 #about {
     padding-top: 5rem;
-
+    background-color: #054db9;
 }
 #course {
     padding-top: 5rem;
@@ -66,10 +66,6 @@ body {
 
 #btn-course {
     box-shadow: 1px 1px 1px green;
-}
-
-.bg-about {
-    background-color: #054db9;
 }
 
 .circle-icon {
