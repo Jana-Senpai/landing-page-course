@@ -64,17 +64,17 @@ body {
 }
 
 #btn-course {
-    box-shadow: 1px 1px 1px green;
+    box-shadow: 0 0 20px #29e08b; /* Efek bayangan saat hover */
 }
 
 .circle-icon {
     display: inline-block;
-    width: 60px; /* Sesuaikan ukuran lingkaran */
-    height: 60px; /* Sesuaikan ukuran lingkaran */
+    width: 50px; /* Sesuaikan ukuran lingkaran */
+    height: 50px; /* Sesuaikan ukuran lingkaran */
     border-radius: 50%; /* Membuat lingkaran */
     background-color: #16af68; /* Warna latar lingkaran */
     text-align: center;
-    line-height: 60px; /* Vertikal tengahkan ikon */
+    line-height: 55px; /* Vertikal tengahkan ikon */
     box-shadow: 0 0 20px #29e08b; /* Efek bayangan saat hover */
     transition: box-shadow 0.3s ease-in-out; /* Transisi saat hover */
     margin-right: 30px;
@@ -114,13 +114,13 @@ body {
     }
 
     .circle-icon {
-        width: 40px;
-        height: 40px;
-        line-height: 40px;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
     }
 
     footer {
-        margin-top: 50rem;
+        margin-top: 60rem;
     }
 
     footer div h6 {
