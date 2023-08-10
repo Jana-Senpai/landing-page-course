@@ -64,6 +64,38 @@ body {
     transition: all .3s ease-in-out;
 }
 
+#btn-course {
+    box-shadow: 1px 1px 1px green;
+}
+
+.bg-about {
+    background-color: #054db9;
+}
+
+.circle-icon {
+    display: inline-block;
+    width: 60px; /* Sesuaikan ukuran lingkaran */
+    height: 60px; /* Sesuaikan ukuran lingkaran */
+    border-radius: 50%; /* Membuat lingkaran */
+    background-color: #16af68; /* Warna latar lingkaran */
+    text-align: center;
+    line-height: 60px; /* Vertikal tengahkan ikon */
+    box-shadow: 0 0 20px #29e08b; /* Efek bayangan saat hover */
+    transition: box-shadow 0.3s ease-in-out; /* Transisi saat hover */
+    margin-right: 30px;
+}
+
+.circle-icon i {
+    color: #000;
+}
+
+.circle-icon:hover {
+    box-shadow: 0 0 10px #198754; /* Efek bayangan */
+}
+
+.circle-icon:hover i {
+    color: #fff;
+}
 
 /* breakpoints */
 @media (min-width: 0px) {
@@ -75,5 +107,11 @@ body {
     .image-ilustrasi {
         width: 80%;
         margin-left: 2rem;
+    }
+}
+
+@media (min-width: 578px) {
+    .course .container .row .col-md-3 .card {
+        width: 100%;
     }
 }
