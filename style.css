@@ -26,6 +26,9 @@ body {
 #course {
     padding-top: 5rem;
 }
+#navbar {
+    background-color: #212529;
+}
 
 .image-ilustrasi {
     animation: UpDown infinite 2s ease-in-out;
@@ -99,15 +102,19 @@ body {
         margin: auto;
     }
 
-    /* .social-media ul li{
-        font-size: 20px;
+    .logo-footer {
+        width: 80%;
+        padding: 2rem 0 0 2rem;
     }
 
-    .circle-icon {
-        width: 40px;
-        height: 40px;
-        line-height: 40px;
-    } */
+    .navigation-footer {
+        padding: 2rem 0 2rem 2rem;
+    }
+
+    .maps {
+        width: 90%;
+        padding: 2rem 0 2rem 2rem;
+    }
 
     footer div h6 {
         font-size: 70%;
