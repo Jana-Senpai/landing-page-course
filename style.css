@@ -108,12 +108,12 @@ body {
     }
 
     .navigation-footer {
-        padding: 2rem 0 2rem 2rem;
+        padding: 2rem 0 0 2rem;
     }
 
     .maps {
         width: 90%;
-        padding: 2rem 0 2rem 2rem;
+        padding: 2rem 0 0 2rem;
     }
 
     footer div h6 {
