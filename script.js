@@ -1,4 +1,4 @@
-// Scroll Reveal
+// Library Scroll Reveal
 ScrollReveal({
     distance: "200px",
     duration: 1500,

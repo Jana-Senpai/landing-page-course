@@ -83,6 +83,10 @@ body {
     margin-right: 30px;
 }
 
+ul li:nth-child(2) .circle-icon {
+    line-height: 53px;
+}
+
 .circle-icon i {
     color: #000;
 }
@@ -114,6 +118,10 @@ body {
     .maps {
         width: 90%;
         padding: 2rem 0 0 2rem;
+    }
+
+    ul li:nth-child(2) .circle-icon i {
+        font-size: 32px;
     }
 
     footer div h6 {
