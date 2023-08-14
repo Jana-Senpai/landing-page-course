@@ -130,7 +130,7 @@ ul li:nth-child(2) .circle-icon {
     }
 
     ul li .circle-icon {
-        margin: 8px;
+        margin-right: 12px;
     }
 
     ul li:nth-child(2) .circle-icon i {
