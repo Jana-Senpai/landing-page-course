@@ -30,6 +30,10 @@ body {
     background-color: #212529;
 }
 
+.nav-pills {
+    --bs-nav-pills-link-active-bg: #198754 !important;
+}
+
 .image-ilustrasi {
     animation: UpDown infinite 2s ease-in-out;
 }
@@ -109,6 +113,11 @@ ul li:nth-child(2) .circle-icon {
     .logo-footer {
         width: 80%;
         padding: 2rem 0 0 2rem;
+    }
+
+    .logo-footer:nth-child(2) {
+        width: 50%;
+        margin-left: 2rem;
     }
 
     .navigation-footer {
