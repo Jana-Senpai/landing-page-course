@@ -115,7 +115,7 @@ ul li:nth-child(2) .circle-icon {
         padding: 2rem 0 0 2rem;
     }
 
-    .logo-footer:nth-child(2) {
+    a:nth-child(2) .logo-footer {
         width: 50%;
         margin-left: 2rem;
     }
@@ -127,6 +127,10 @@ ul li:nth-child(2) .circle-icon {
     .maps {
         width: 90%;
         padding: 2rem 0 0 2rem;
+    }
+
+    ul li .circle-icon {
+        margin: 8px;
     }
 
     ul li:nth-child(2) .circle-icon i {
