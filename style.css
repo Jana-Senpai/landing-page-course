@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap');
 
+:root {
+    --dark-mode: #212529;
+    --font-dark-mode: #fff;
+    --font-second-dark-mode: #000;
+    --bg-secondary: #6c757d;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -10,6 +17,10 @@
 body {
     scrollbar-width: none; /* FireFox */
     -ms-overflow-style: none; /* IE/Edge */
+}
+
+body.dark-mode {
+    background-color: var(--dark-mode);
 }
 
 *::-webkit-scrollbar{
@@ -27,7 +38,53 @@ body {
     padding-top: 5rem;
 }
 #navbar {
-    background-color: #212529;
+    background-color: rgba(33, 37, 41, 1);
+    border-bottom: none;
+}
+
+/* dark mode */
+#home.dark-mode {
+    color: var(--font-dark-mode);
+}
+#course.dark-mode {
+    color: var(--font-dark-mode);
+}
+
+.navbar.scroll {
+    background-color: rgba(33, 37, 41, 0.9) !important;
+    border-bottom: 1px solid #fff !important;
+}
+
+.navbar.dark-mode {
+    background-color: rgba(108, 117, 125, 1) !important;
+}
+
+.navbar.dark-mode.nav-pills {
+    --bs-nav-pills-link-active-bg: var(--dark-mode) !important;
+}
+
+.navbar.dark-mode.scroll {
+    background-color: rgba(108, 117, 125, 0.9) !important;
+}
+
+.btn-dark-mode {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 100%;
+}
+
+footer.dark-mode .container-fluid .row {
+    background-color: var(--bg-secondary) !important;
+}
+footer.dark-mode .copyright {
+    background-color: var(--bg-secondary) !important;
+}
+footer.dark-mode .svg-path {
+    fill: var(--bg-secondary) !important;
+}
+footer.dark-mode .navigation-footer {
+    color: var(--font-second-dark-mode) !important;
 }
 
 .nav-pills {
