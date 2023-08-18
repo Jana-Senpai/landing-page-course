@@ -103,7 +103,44 @@ ul li:nth-child(2) .circle-icon {
     color: #fff;
 }
 
-/* breakpoints */
+/* breakpoints tablet */
+@media (min-width: 768px) and (max-width: 800px) {
+    #home {
+        font-size: 1.2rem;
+    }
+
+    .course .container .row .col-md-3 {
+        width: 50%;
+        margin: auto;
+    }
+
+    footer .container-fluid .row .col-md-4 {
+        margin: auto;
+    }
+
+    footer .container-fluid .row .col-md-4:nth-child(1){
+        display: flex;
+        width: 80vw;
+    }
+
+    .logo-footer {
+        margin-right: 2rem;
+    }
+
+    footer .container-fluid .row .col-md-4:nth-child(2){
+        margin-top: 2rem;
+    }
+
+
+    .maps {
+        width: 150%;
+        padding: 1rem 2rem 1rem 0;
+        transform: translateX(-50px);
+    }
+
+}
+
+/* breakpoints mobile*/
 @media (max-width: 578px) {
     .title-home {
         font-size: 1rem;
@@ -145,3 +182,4 @@ ul li:nth-child(2) .circle-icon {
         font-size: 70%;
     }
 }
+
