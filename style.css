@@ -125,18 +125,16 @@ footer.dark-mode .navigation-footer {
 	transition: all 0.3s ease-in-out;
 }
 
-.package .col-md-3:nth-child(1) .card:hover {
-	box-shadow: 0 0.125rem 1rem #198754;
-	transform: scale(1.1);
-	transition: all 0.3s ease-in-out;
+.border-purple {
+	border: 1px solid #614BC3 !important;
 }
-.package .col-md-3:nth-child(2) .card:hover {
-	box-shadow: 0 0.125rem 1rem #ffc107;
-	transform: scale(1.1);
-	transition: all 0.3s ease-in-out;
+
+.text-bg-purple {
+	background-color: #614BC3 !important;
 }
-.package .col-md-3:nth-child(3) .card:hover {
-	box-shadow: 0 0.125rem 1rem #dc3545;
+
+.package .col-md-3 .card:hover {
+	box-shadow: 0 0.125rem 1rem #614BC3;
 	transform: scale(1.1);
 	transition: all 0.3s ease-in-out;
 }
